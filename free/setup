@@ -1,0 +1,6 @@
+sudo hostnamectl set-hostname --static t410.soiree.tech
+sudo dnf install $(cat packages)
+chsh -s /usr/bin/fish
+sudo gem install rake
+curl -L https://bit.ly/janus-bootstrap | bash
+curl -OL https://github.com/thoughtbot/gitsh/releases/download/v0.11.1/gitsh-0.11.1.tar.gz && tar -zxvf gitsh-0.11.1.tar.gz && cd gitsh-0.11.1 && ./configure && make && sudo make install && cd - && rm -rf gitsh-0.11.1*

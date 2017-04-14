@@ -1,0 +1,3 @@
+sudo dnf install https://prerelease.keybase.io/keybase_amd64.rpm
+run_keybase
+
