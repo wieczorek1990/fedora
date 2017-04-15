@@ -12,4 +12,6 @@ docker
 inkscape
 ImageMagick
 pwgen
+jq
+httpie
 
