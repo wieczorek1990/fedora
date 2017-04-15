@@ -9,4 +9,6 @@ redhat-rpm-config
 readline-devel
 @development-tools
 docker
+inkscape
+ImageMagick
 
